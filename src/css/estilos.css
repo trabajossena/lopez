@@ -1,0 +1,85 @@
+.contenedor {
+	max-width: 96%;
+	margin: auto;
+}
+.card-informativo {
+	background: #fefefe;
+	box-shadow: 1px 1px 6px 4px #ececec;
+	margin: 10px 0 36px 0;
+	padding: 10px 10px 40px 10px;
+	border-left: 10px #829b29 solid;
+	border-radius: 8px 0 0 8px;
+}
+.card-informativo {
+	font-size: 20px;
+}
+.card-informativo i.fa.fa-info {
+	border-radius: 50%;
+	background: #829b29;
+	width: 30px;
+	margin: 10px auto 20px;
+	height: 30px;
+	color: #fff;
+	vertical-align: middle;
+	display: table-cell;
+}
+i.fa.fa-info-circle {
+	font-size: 40px;
+	color: #829b29;
+	margin: 3px 7px 0 0;
+}
+@media (max-width: 767px) {
+	.card-informativo {
+		font-size: 17px;
+	}
+}
+h1.titulo_pagina {
+	font-family: Barcelony;
+	font-weight: 700;
+	font-size: 50px;
+	color: #829b29;
+	line-height: 45px;
+	text-align: center;
+}
+.line-separator {
+	margin: 10px 0 30px;
+	width: 60%;
+	border-bottom: 2px solid #d3d3d3;
+	max-width: 100px;
+	margin: auto;
+}
+section.cabecera_pagina {
+	margin-top: 130px;
+	text-align: center;
+	justify-content: center;
+}
+h1.titulo_pagina small {
+	font-size: 22px;
+	letter-spacing: 5px;
+	color: #706f6f;
+	font-family: "Muller light";
+	clear: both;
+}
+
+.buscador {
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#filtro-c {
+	padding: 0px 10px;
+}
+
+#filtro-c {
+	padding: 0px 10px;
+}
+
+#filtro-c select {
+	width: 300px;
+	border-radius: 20px;
+	padding: 6px 20px;
+	font-size: 18px;
+	font-family: "Muller light";
+}
